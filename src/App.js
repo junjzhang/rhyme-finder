@@ -15,6 +15,9 @@ function App() {
   return (
     <main className="container">
       <h1 className="row">Rhyme Finder (579 Problem Set 6)</h1>
+      <a href="https://github.com/junjzhang/rhyme-finder">
+        Link to react code repo
+      </a>
       <SavedWord savedWords={savedWords} />
       <InputGroup
         setWord={setWord}
